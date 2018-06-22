@@ -11,6 +11,7 @@ class PostsNew extends Component {
           type="text"
           {...field.input}
         />
+        {field.meta.error}
       </div>
     );
   }
@@ -38,6 +39,25 @@ class PostsNew extends Component {
   }
 }
 
+function validate(values) {
+  const errors = {};
+
+  if (!values.title || values.title.length < 3) {
+    errors.title = "Enter a title that is at least 3 characters!";
+  }
+
+  if (!values.categories) {
+    errors.categories = "Enter at least one category!";
+  }
+
+  if (!values.content) {
+    errors.content = "Enter content!";
+  }
+
+  return errors;
+}
+
 export default reduxForm({
+  validate,
   form: 'PostsNewForm'
 })(PostsNew);
