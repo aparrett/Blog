@@ -11,6 +11,7 @@ This sample Blog application is the 4th application you build in the [Modern Rea
 * [Redux](https://github.com/reduxjs/react-redux)
 * [redux-form](https://github.com/erikras/redux-form)
 * [redux-promise](https://travis-ci.org/redux-utilities/redux-promise)
+* [Webpack](https://github.com/webpack/webpack)
 * [Axios](https://github.com/axios/axios)
 * [Lodash](https://github.com/lodash/lodash)
 
