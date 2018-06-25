@@ -1,6 +1,6 @@
 # Blog
 
-Blog is a simple application that allows you to add, remove, and view blog posts.  There is currently minimal styling because the goal of this developing this application was to learn React.  You can view Blog at [https://ap-react-blog.herokuapp.com/](https://ap-react-blog.herokuapp.com/).
+Blog is a simple application that allows you to add, remove, and view blog posts.  There is currently minimal styling because the goal of developing this application was to learn React.  You can view Blog at [https://ap-react-blog.herokuapp.com/](https://ap-react-blog.herokuapp.com/).
 
 This sample Blog application is the 4th application you build in the [Modern React with Redux](https://www.udemy.com/react-redux/) course taught by Stephen Grider.
 
